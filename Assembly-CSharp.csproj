@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{6F107143-62B3-2BF5-7E9A-27F6B0312F4E}</ProjectGuid>
+    <ProjectGuid>{22687F0B-69E3-B848-C00A-1EB7F6A42334}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,15 +56,12 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\[Scripts]\PlayerBehaviour.cs" />
-    <Compile Include="Assets\[Scripts]\BetterJumping.cs" />
-    <Compile Include="Assets\[Scripts]\Jumping.cs" />
+    <Compile Include="Assets\PlayerMovement.cs" />
+    <Compile Include="Assets\CharacterController2D.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Xternal Assets\Monsters\Bringer Of Death\License.txt" />
-    <None Include="Assets\Xternal Assets\BayatGames\Free Platform Game Assets\Readme.txt" />
-    <None Include="Assets\Xternal Assets\Medieval_pixel_art_asset_FREE\pixel_snapping_README.txt" />
-    <None Include="Assets\Xternal Assets\Monsters\Bringer Of Death\Contact.txt" />
+    <None Include="Assets\Monsters\Bringer Of Death\License.txt" />
+    <None Include="Assets\Monsters\Bringer Of Death\Contact.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -790,11 +787,17 @@
     <Reference Include="Unity.2D.IK.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Services.Core.Analytics">
       <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst">
       <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
